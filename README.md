@@ -1,11 +1,6 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+# Visualizer
+An algorithm visualizer to facilitate understanding of various algorithms.
+Implemented algorithms such as Selection Sort, Merge Sort, Insertion Sort, and Bubble Sort.
 ### `npm start`
 
 Runs the app in the development mode.\
