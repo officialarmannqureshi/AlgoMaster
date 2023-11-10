@@ -113,11 +113,11 @@ const Home = () => {
 	};
 
 	// HEAP SORT
-	const heapsortAnimate = () => {
-		setAble(false);
-		const { arr, count } = heapsort(mainArray, animationSpeed);
-		colorEveryElement(arr, count + 1);
-	};
+	// const heapsortAnimate = () => {
+	// 	setAble(false);
+	// 	const { arr, count } = heapsort(mainArray, animationSpeed);
+	// 	colorEveryElement(arr, count + 1);
+	// };
 	const startSorting = algo => {
 		switch (algo) {
 			case 'bubblesort':
@@ -136,9 +136,9 @@ const Home = () => {
 			case 'quicksort':
 				quicksortAnimate();
 				break;
-			case 'heapsort':
-				heapsortAnimate();
-				break;
+			// case 'heapsort':
+			// 	heapsortAnimate();
+			// 	break;
 			default:
 				mergeSort();
 				break;
@@ -165,7 +165,7 @@ const Home = () => {
 			</div>
 			<div className='sidebar'>
 				<header>
-					Algo Master <br /> <p style={{fontSize:'11px'}}>Simplifying Your Understanding for Algorithmic Excellence</p>
+				Visualizer <br /> <p style={{fontSize:'11px'}}>Simplifying Your Understanding for Algorithmic Excellence</p>
 				</header>
 				<div className='select-box able'>
 					<label htmlFor='algo'>select algorithm</label>
@@ -178,9 +178,9 @@ const Home = () => {
 						<option value='bubblesort'>bubble sort</option>
 						<option value='mergesort'>merge sort</option>
 						<option value='insertionsort'>insertion sort</option>
-						<option value='selectionsort'>selection sort</option>
+						{/* <option value='selectionsort'>selection sort</option> */}
 						<option value='quicksort'>quick sort</option>
-						<option value='heapsort'>heap sort</option>
+						{/* <option value='heapsort'>heap sort</option> */}
 					</select>
 				</div>
         <div className='button-adjust'>
